@@ -11,6 +11,7 @@
   inputs.src-nimsvg-master.ref   = "refs/heads/master";
   inputs.src-nimsvg-master.owner = "bluenote10";
   inputs.src-nimsvg-master.repo  = "NimSvg";
+  inputs.src-nimsvg-master.dir   = "";
   inputs.src-nimsvg-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
